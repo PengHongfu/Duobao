@@ -1,4 +1,4 @@
-package com.peng.duobao;
+package com.peng.duobao.fragment;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -8,6 +8,8 @@ import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.peng.duobao.R;
 
 /**
  * Created by Peng on 2016/8/4.

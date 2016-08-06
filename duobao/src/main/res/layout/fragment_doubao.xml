@@ -8,14 +8,20 @@
     android:gravity="center"
     android:layout_width="match_parent"
     android:layout_height="50dp"
-    android:background="@color/color_red">
+    android:background="@color/color_red7">
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_logo_white"/>
 </LinearLayout>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="我是夺宝模块的内容"/>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我是夺宝模块的内容"/>
+    </LinearLayout>
+
 </LinearLayout>
